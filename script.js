@@ -11,7 +11,7 @@ const btnLogin = document.getElementById('btn-login')
         if (mobileNumberValueConverted === mobileNumber && pinNumberValueConverted === pinNumber) {
             window.location.href = 'main.html';
         } else {
-            alert('Invalid')
+            alert('Invalid Phone Number');
         }
 
 
